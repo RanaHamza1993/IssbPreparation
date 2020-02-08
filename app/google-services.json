@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013393841519",
+    "firebase_url": "https://issbpreparation-f1384.firebaseio.com",
+    "project_id": "issbpreparation-f1384",
+    "storage_bucket": "issbpreparation-f1384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013393841519:android:cee07727a91856a5f01c9a",
+        "android_client_info": {
+          "package_name": "com.bilalandcompany.issbpreparation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013393841519-l1srsb4emhn6qrj2q9ah0t1thjudj66u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bilalandcompany.issbpreparation",
+            "certificate_hash": "aa4feebe03e479f907dd0b704dc8c63d3f0360f7"
+          }
+        },
+        {
+          "client_id": "1013393841519-cumcuadq82sjvu911rj52vcq3ndp6ov5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7hATtcpIVnpND6JSST6an_UCX36R04Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013393841519-cumcuadq82sjvu911rj52vcq3ndp6ov5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
