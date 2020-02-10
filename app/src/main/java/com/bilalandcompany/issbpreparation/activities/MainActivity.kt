@@ -19,9 +19,7 @@ class MainActivity : AppCompatActivity() {
             DataBindingUtil.setContentView(this,
                 R.layout.activity_main
             )
-
-
-        makeImagesRound()
+        setListener()
     }
 
     private fun makeImagesRound() {
@@ -36,6 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListener(){
+        makeImagesRound()
         binding.run {
             instructorIv?.setOnClickListener {
                 ActivityNavigator<PostDataActivity>(this@MainActivity,
