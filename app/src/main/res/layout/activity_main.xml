@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -50,7 +50,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/intro" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -91,7 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/requirements" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/fivedays2" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -181,7 +181,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/notes" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -230,7 +230,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/physicalassessment" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -271,7 +271,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/map" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -320,7 +320,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/practice" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -361,7 +361,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/instructor" />
+                        android:src="@drawable/cplaceholder" />
 
                     <View
                         android:layout_width="match_parent"
@@ -396,7 +396,7 @@
 
 
 
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
 </layout>
