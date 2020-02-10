@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <dimen name="design_navigation_icon_padding" tools:override="true">2dp</dimen>
+    <dimen name="design_bottom_navigation_icon_size" tools:override="true">18dp</dimen>
+    <!--gernal-->
+    <dimen name="toolbar_size">40dp</dimen>
+    <dimen name="dialog_width">340dp</dimen>
+    <dimen name="social_btn_height">40dp</dimen>
+    <dimen name="catimgsize">48dp</dimen>
+    <dimen name="creditcardimage">100dp</dimen>
+    <dimen name="creditcard_heading">28sp</dimen>
+    <dimen name="fblogsize">32dp</dimen>
+    <dimen name="logincardmargin">15dp</dimen>
+    <dimen name="home_card_width">230dp</dimen>
+    <dimen name="price_size">200dp</dimen>
+    <dimen name="social_imgs">100dp</dimen>
+
+    <dimen name="fblogpadRight">4dp</dimen>
+    <dimen name="loginInnerMargin">20dp</dimen>
+    <dimen name="app_heading_text">22sp</dimen> <!--used for captions -->
+    <dimen name="app_input_text">16sp</dimen> <!--used in edit texts-->
+    <!--caption that move to about edit text TextAppearance.Design.Hint-->
+    <!--caption that move to about edit text TextAppearance.Design.Hint-->
+    <dimen name="app_button_text">18sp</dimen> <!--text on button-->
+    <dimen name="bot_tab_width">70dp</dimen>
+
+    <!--dropdown text-->
+    <!--for big title-->
+    <dimen name="app_normal_text">18sp</dimen> <!--average text like description-->
+    <dimen name="app_small_text">14sp</dimen>
+    <dimen name="app_mini_text">12sp</dimen><!--like tabs text, privacy line-->
+    <dimen name="app_spacing">15dp</dimen> <!--for extra space between to following-->
+    <dimen name="app_spacing_small">7dp
+    </dimen> <!--Normal space between view, used as padding and margins-->
+    <dimen name="app_spacing_smallest">4dp</dimen>
+    <dimen name="app_elevation">2dp</dimen> <!--elevation of buttons cards every thing-->
+    <dimen name="button_elevation">4dp</dimen> <!--elevation of buttons cards every thing-->
+    <dimen name="input_text">22sp</dimen>
+    <dimen name="button_text">22sp</dimen>
+    <dimen name="s4b_padding">10dp</dimen>
+    
+    
+    <!--cramfrenzy gernal-->
+    <dimen name="homefragmentmargin">8dp</dimen>  <!--homefragment fragment caRD margin-->
+    <dimen name="homefragmentpadding">8dp</dimen>  <!--homefragment fragment caRD margin-->
+    <dimen name="bidcardmargintop">5dp</dimen>  <!--bidcard caRD margin top-->
+    <dimen name="bidcardmarginbot">15dp</dimen>  <!--bidcard caRD margin bottom-->
+    <!--more fragment caRD margin-->
+    <!--app normal textsize-->
+    
+    <dimen name="default_large_textsize">20sp</dimen>
+    <dimen name="default_small_textsize">15sp</dimen>
+    <dimen name="margintop_medium">7dp</dimen>
+    
+    
+    <!--catergoryimages dimens-->
+    
+    <dimen name="front_cat_text_size">15sp</dimen>
+    <dimen name="margintop_large">15dp</dimen>
+    
+    <dimen name="s4b_text_login">20sp</dimen>(hdpi)
+    
+    <!--cramfrenzy margings -->
+    <dimen name="crammargin1">1dp</dimen>
+    <dimen name="crammargin3">3dp</dimen>
+    <dimen name="crammargin4">4dp</dimen>
+    <dimen name="crammargin5">5dp</dimen>
+    <dimen name="crammargin6">6dp</dimen>
+    <dimen name="crammargin8">8dp</dimen>
+    <dimen name="crammargin10">10dp</dimen>
+    <dimen name="crammargin20">20dp</dimen>
+    <dimen name="crammargin25">25dp</dimen>
+    
+    <!--crampadding-->
+    
+    
+    <dimen name="crampadding2">2dp</dimen>
+    <dimen name="crampadding5">5dp</dimen>
+    <dimen name="crampadding15">15dp</dimen>
+    <dimen name="crampadding20">20dp</dimen>
+    
+    
+    <!--oldcram-->
+    
+    
+    <dimen name="catCardHeight">120dp</dimen>
+    
+    <dimen name="bidCardSize">210dp</dimen>
+    <dimen name="moreebidCardSize">160dp</dimen>
+    <dimen name="button_margin_addpost">12dp</dimen>
+    <dimen name="text_padding_how_it">6dp</dimen>
+    <dimen name="bidCardbtntext">16sp</dimen>
+    <dimen name="propertyImgSize">200dp</dimen>
+
+    <dimen name="bidheartsize">20dp</dimen>
+    <dimen name="morebidCardheartSize">20dp</dimen>
+    <dimen name="morebidCardCartSize">30dp</dimen>
+    
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">175dp</dimen>
+    <dimen name="nav_header_image">60dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    
+    <dimen name="signup_verifyicon_height">25dp</dimen>
+    
+    
+    <dimen name="rangebar_width">250dp</dimen>
+    <dimen name="rating_height">12dp</dimen>
+    
+    <dimen name="larger_text_for_heading">36dp</dimen>
+    <dimen name="tv_heading1_fontsize">26sp</dimen>
+    <dimen name="tv_heading3_fontsize">22sp</dimen>
+    <dimen name="bidCardImageHeight">100dp</dimen>
+    
+    <dimen name="tv_heading5_fontsize">18sp</dimen>
+    <dimen name="scmarginleft">10dp</dimen>
+    
+    <dimen name="txtViewSize">30dp</dimen>
+    
+    
+    <!--CourseFRenzy Dimens-->
+    
+    
+    <!--Dimens On More Option-->
+    
+    <!--Now Dimens For ADD AN EVENT -->
+    
+    <!--Now Dimens To View Added Events-->
+    <dimen name="added_event_image_width">100dp</dimen>
+    
+    
+    <!--Now Dimens For my_cart layout-->
+    
+    <dimen name="notification_size">10sp</dimen>
+
+    <dimen name="btn_radius">19dp</dimen>
+</resources>
