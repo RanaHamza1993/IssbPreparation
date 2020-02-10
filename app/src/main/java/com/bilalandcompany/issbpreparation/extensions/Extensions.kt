@@ -1,9 +1,40 @@
 package com.bilalandcompany.issbpreparation.extensions
 
+import android.content.Context
+import android.graphics.*
+import android.graphics.drawable.BitmapDrawable
 import android.view.View
+import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
+import es.dmoral.toasty.Toasty
+fun Context.showSuccessMessage(message: String, duration: Int = Toast.LENGTH_SHORT) {
+    try {
+        Toasty.success(this, message, duration, true).show()
+
+    } catch (e: WindowManager.BadTokenException) {
+    }
+}
+
+fun Context.showInfoMessage(message: String, duration: Int = Toast.LENGTH_SHORT) {
+    try {
+        Toasty.info(this, message, duration, true).show()
+    } catch (e: WindowManager.BadTokenException) {
+    }
+}
+
+fun Context.showErrorMessage(message: String, duration: Int = Toast.LENGTH_SHORT) {
+    try {
+        Toasty.error(this, message, duration, true).show()
+    } catch (e: WindowManager.BadTokenException) {
+
+    }
+}
+
+
+
 
 fun View.show() {
     visibility = View.VISIBLE

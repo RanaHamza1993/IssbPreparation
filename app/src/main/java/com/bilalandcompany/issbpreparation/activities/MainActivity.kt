@@ -1,10 +1,12 @@
-package com.bilalandcompany.issbpreparation
+package com.bilalandcompany.issbpreparation.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.bilalandcompany.issbpreparation.R
 import com.bilalandcompany.issbpreparation.databinding.MainActivityBinding
 import com.bilalandcompany.issbpreparation.extensions.makeRound
+import com.bilalandcompany.issbpreparation.kotlin.ActivityNavigator
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: MainActivityBinding
@@ -14,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         binding =
-            DataBindingUtil.setContentView(this, R.layout.activity_main)
+            DataBindingUtil.setContentView(this,
+                R.layout.activity_main
+            )
 
 
         makeImagesRound()
@@ -31,5 +35,13 @@ class MainActivity : AppCompatActivity() {
         binding.instructorIv.makeRound()
     }
 
+    private fun setListener(){
+        binding.run {
+            instructorIv?.setOnClickListener {
+                ActivityNavigator<PostDataActivity>(this@MainActivity,
+                    PostDataActivity::class.java)
+            }
+        }
+    }
 
 }
