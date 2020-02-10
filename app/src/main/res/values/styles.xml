@@ -1,8 +1,125 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_grey_300</item>
+        <item name="colorPrimaryDark">@color/md_grey_500</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorEdgeEffect">@color/black</item>
+        <item name="android:windowDisablePreview">true</item>
+<!--        <item name="android:windowBackground">@color/black</item>-->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
     </style>
+    <style name="CustomTextAppearance">
+        <item name="android:textSize">@dimen/app_input_text</item>
+        <item name="android:color">@color/md_grey_600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="InputTextLayout" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/app_small_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorAccent">@color/md_grey_50</item>
+        <item name="android:textColorHint">@color/md_grey_300</item>
+        <item name="android:textColor">@color/md_grey_300</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="DialogTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="NavigationTheme" >
+        <item name="android:listDivider">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+
+
+    <style name="navigationDrawerStyle">
+        <!-- NavigationDrawer theme. -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+    <style name="customSwitch.theme" parent="Theme.AppCompat.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/black</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/black</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="switch.theme" parent="Theme.AppCompat.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/black</item>
+        <item name="colorButtonNormal">@color/red</item>
+    </style>
+    <style name="ConfirmationPurchaseHeader">
+        <item name="android:textSize">@dimen/app_normal_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="ConfirmPurchaseText">
+        <item name="android:textSize">@dimen/app_mini_text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
 
 </resources>

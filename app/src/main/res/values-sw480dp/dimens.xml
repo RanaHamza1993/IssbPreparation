@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen  name="design_navigation_icon_padding" tools:override="true">2dp</dimen>
+    <dimen name="design_bottom_navigation_icon_size" tools:override="true">20dp</dimen>
+    <!--gernal-->
+    <dimen name="dialog_width">420dp</dimen>
+    <dimen name="toolbar_size">44dp</dimen>
+    <dimen name="social_btn_height">42dp</dimen>
+    <dimen name="catimgsize">56dp</dimen>
+    <dimen name="creditcardimage">140dp</dimen>
+    <dimen name="creditcard_heading">32sp</dimen>
+    <dimen name="fblogsize">38dp</dimen>
+    <dimen name="logincardmargin">22dp</dimen>
+    <dimen name="fblogpadRight">8dp</dimen>
+    <dimen name="home_card_width">280dp</dimen>
+    <dimen name="loginInnerMargin">40dp</dimen>
+    <dimen name="app_heading_text">24sp</dimen>
+    <dimen name="app_input_text">20sp</dimen>
+    <dimen name="app_button_text">20sp</dimen>
+    <dimen name="button_margin_addpost">14dp</dimen>
+    <dimen name="text_padding_how_it">8dp</dimen>
+    <dimen name="propertyImgSize">200dp</dimen>
+    <dimen name="price_size">240dp</dimen>
+    <dimen name="social_imgs">120dp</dimen>
+
+    <dimen name="bot_tab_width">100dp</dimen>
+
+    <dimen name="app_normal_text">20sp</dimen>
+    <dimen name="app_small_text">16sp</dimen>
+    <dimen name="app_mini_text">14sp</dimen>
+    <dimen name="app_spacing" >15dp</dimen>
+    <dimen name="app_spacing_small">8dp</dimen>
+    <dimen name="app_spacing_smallest">5dp</dimen>
+    <dimen name="app_elevation">2dp</dimen>
+    <dimen name="button_elevation">4dp</dimen>
+    <dimen name="input_text">26sp</dimen>
+    <dimen name="button_text">26sp</dimen>
+    <dimen name="s4b_padding">10dp</dimen>
+    
+    
+    <!--cramfrenzy gernal-->
+    <dimen name="homefragmentmargin">8dp</dimen>  <!--homefragment fragment caRD margin-->
+    <dimen name="bidcardmargintop">5dp</dimen>  <!--bidcard caRD margin top-->
+    <dimen name="bidcardmarginbot">15dp</dimen>  <!--bidcard caRD margin bottom-->
+    <!--more fragment caRD margin-->
+    <!--app normal textsize-->
+
+    <dimen name="default_large_textsize">35sp</dimen>
+    <dimen name="default_small_textsize">15sp</dimen>
+    <dimen name="margintop_medium">7dp</dimen>
+
+
+
+
+        <!--catergoryimages dimens-->
+    <dimen name="front_cat_text_size">15sp</dimen>
+    <dimen name="margintop_large">20dp</dimen>
+    
+    
+    <dimen name="s4b_text_login">26sp</dimen>
+
+
+    <!--cramfrenzy margings -->
+    <dimen name="crammargin1">1dp</dimen>
+    <dimen name="crammargin3">3dp</dimen>
+    <dimen name="crammargin4">4dp</dimen>
+    <dimen name="crammargin5">5dp</dimen>
+    <dimen name="crammargin6">6dp</dimen>
+    <dimen name="crammargin8">8dp</dimen>
+    <dimen name="crammargin10">10dp</dimen>
+    <dimen name="crammargin20">20dp</dimen>
+    <dimen name="crammargin25">25dp</dimen>
+    
+    <!--crampadding-->
+    
+    
+    <dimen name="crampadding2">2dp</dimen>
+    <dimen name="crampadding5">5dp</dimen>
+    <dimen name="crampadding15">15dp</dimen>
+    <dimen name="crampadding20">20dp</dimen>
+    
+    <!--oldcram-->
+    
+    
+    <dimen name="catCardHeight">140dp</dimen>
+    <dimen name="bidCardSize">230dp</dimen>
+    <dimen name="moreebidCardSize">180dp</dimen>
+    <dimen name="bidCardImageHeight">120dp</dimen>
+    <dimen name="bidCardbtntext">18sp</dimen>
+    
+    <dimen name="bidheartsize">25dp</dimen>
+    
+    <dimen name="morebidCardheartSize">25dp</dimen>
+    <dimen name="morebidCardCartSize">35dp</dimen>
+    <dimen name="larger_text_for_heading">38dp</dimen>
+    <dimen name="tv_heading5_fontsize">20sp</dimen>
+    <dimen name="scmarginleft">10dp</dimen>
+    
+    <dimen name="txtViewSize">40dp</dimen>
+    
+    
+    <!--CourseFrenzy Dimens-->
+
+
+    <!--Dimens On More Option-->
+    
+    
+    <!--Now Dimens For ADD AN EVENT -->
+    
+    <!--Now Dimens To View Added Events-->
+    <dimen name="added_event_image_width">170dp</dimen>
+    
+    
+    <!--Now Dimens For my_cart layout-->
+    
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">205dp</dimen>
+    <dimen name="nav_header_image">70dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    
+    <dimen name="signup_verifyicon_height">25dp</dimen>
+    
+    
+    <dimen name="rangebar_width">250dp</dimen>
+    <dimen name="rating_height">12dp</dimen>
+    
+    <dimen name="tv_heading1_fontsize">26sp</dimen>
+    <dimen name="tv_heading3_fontsize">22sp</dimen>
+    <dimen name="notification_size">12sp</dimen>
+    <dimen name="btn_radius">20dp</dimen>
+
+</resources>

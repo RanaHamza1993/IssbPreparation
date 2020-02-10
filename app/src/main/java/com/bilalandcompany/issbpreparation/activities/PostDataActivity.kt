@@ -1,4 +1,4 @@
-package com.bilalandcompany.issbpreparation
+package com.bilalandcompany.issbpreparation.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,12 +6,13 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
-import android.widget.Toast
 import androidx.databinding.DataBindingUtil
+import com.bilalandcompany.issbpreparation.R
 import com.bilalandcompany.issbpreparation.databinding.PostDataBinding
+import com.bilalandcompany.issbpreparation.extensions.clear
+import com.bilalandcompany.issbpreparation.extensions.showSuccessMessage
 import com.google.firebase.database.*
 import com.google.firebase.database.GenericTypeIndicator
-import es.dmoral.toasty.Toasty
 
 
 class PostDataActivity : AppCompatActivity() {
@@ -26,7 +27,9 @@ class PostDataActivity : AppCompatActivity() {
     var notesList=ArrayList<Any>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=DataBindingUtil.setContentView(this,R.layout.activity_post_data)
+        binding=DataBindingUtil.setContentView(this,
+            R.layout.activity_post_data
+        )
         init()
         setListener()
 
@@ -42,7 +45,8 @@ class PostDataActivity : AppCompatActivity() {
                 map.put("info",answer?.text.toString() as Any)
                 notesDataReference?.child(selectedNote)?.push()?.updateChildren(map)?.
                     addOnCompleteListener{
-                        Toasty.success(this@PostDataActivity,"Data posted successfully",Toast.LENGTH_SHORT).show()
+                        answer.clear()
+                        showSuccessMessage("Data posted successfully")
                     }
             }
             notesSpinner.setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {

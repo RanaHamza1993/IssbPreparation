@@ -6,7 +6,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PostDataActivity">
+    tools:context=".activities.PostDataActivity">
 
     <androidx.appcompat.widget.AppCompatSpinner
         android:layout_width="wrap_content"
