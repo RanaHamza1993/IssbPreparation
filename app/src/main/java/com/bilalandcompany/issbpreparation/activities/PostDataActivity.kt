@@ -9,6 +9,7 @@ import android.widget.Spinner
 import androidx.databinding.DataBindingUtil
 import com.bilalandcompany.issbpreparation.R
 import com.bilalandcompany.issbpreparation.databinding.PostDataBinding
+import com.bilalandcompany.issbpreparation.extensions.clear
 import com.bilalandcompany.issbpreparation.extensions.showSuccessMessage
 import com.google.firebase.database.*
 import com.google.firebase.database.GenericTypeIndicator
@@ -44,6 +45,7 @@ class PostDataActivity : AppCompatActivity() {
                 map.put("info",answer?.text.toString() as Any)
                 notesDataReference?.child(selectedNote)?.push()?.updateChildren(map)?.
                     addOnCompleteListener{
+                        answer.clear()
                         showSuccessMessage("Data posted successfully")
                     }
             }
