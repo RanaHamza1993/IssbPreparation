@@ -45,6 +45,34 @@ class IssbCentres : AppCompatActivity() {
             StaticFunctions.loadImage(this@IssbCentres, R.drawable.malir, malirIv)
             StaticFunctions.loadImage(this@IssbCentres, R.drawable.quetta, quettaIv)
             makeImagesRound()
+            gujranwalaIv?.setOnClickListener {
+                val bundle=Bundle()
+                bundle.putDouble("latitude",32.2407574)
+                bundle.putDouble("longitude",74.1080336)
+                bundle.putString("title","Gujranwala Center")
+                ActivityNavigator<MapsActivity>(this@IssbCentres,MapsActivity::class.java,bundle)
+            }
+            kohatIv?.setOnClickListener {
+                val bundle=Bundle()
+                bundle.putDouble("latitude",33.579567)
+                bundle.putDouble("longitude",71.4456371)
+                bundle.putString("title","Kohat Center")
+                ActivityNavigator<MapsActivity>(this@IssbCentres,MapsActivity::class.java,bundle)
+            }
+            malirIv?.setOnClickListener {
+                val bundle=Bundle()
+                bundle.putDouble("latitude",24.9167423)
+                bundle.putDouble("longitude",67.1979326)
+                bundle.putString("title","Malir Center")
+                ActivityNavigator<MapsActivity>(this@IssbCentres,MapsActivity::class.java,bundle)
+            }
+            quettaIv?.setOnClickListener {
+                val bundle=Bundle()
+                bundle.putDouble("latitude",30.2208698)
+                bundle.putDouble("longitude",67.0055351)
+                bundle.putString("title","Quetta Center")
+                ActivityNavigator<MapsActivity>(this@IssbCentres,MapsActivity::class.java,bundle)
+            }
         }
     }
 
