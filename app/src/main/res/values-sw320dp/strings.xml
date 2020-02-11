@@ -1,4 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" tools:ignore="ExtraTranslation">ISSB</string>
-
+    <string name="intro" tools:ignore="ExtraTranslation">The Inter Services Selection Board (ISSB) is a committee for the selection of candidates for officer commissions in the armed forces of Pakistan, the Army, Navy and Air Force. Selection is made on the basis of five days of psychological screening to test the ability, aptitude and personality of a candidate. The tests are held in any one of the four centers, namely Kohat, Gujranwala,Quetta and Malir. Candidates who pass the selection procedure qualify, provided that they pass a medical test, to undergo officer training at military academies, primarily the Pakistan Military Academy in Kakul the Pakistan Naval Academy in Manora and the Pakistan Air Force Academy in Risalpur. </string>
+    <string name="prohibited_items" tools:ignore="ExtraTranslation">* Camera (all types) \n* Audio - visual items \n* Knife / Sharp weapon \n* Mobile Phone \n* Pets \n* Liquors/ Drugs \n* Fire Arms \n* Government banned items \n* Any valuable items \n* Large sum of money </string>
+    <string name="male_candidates_req" tools:ignore="ExtraTranslation">* Shorts white = 1 Pair \n* Canvas Shoes/Joggers = 1 Pair \n* Socks White = 1 Pair \n* Vest or sports shirt white = 1 Pair \n* Track Suit/Pull-over or Jersey (in winter) = 1 Pair </string>
+    <string name="female_candidates_req" tools:ignore="ExtraTranslation">* Track Suit = 1 Pair \n* Canvas Shoes/Joggers =1 Pair \n* Socks White = 1 Pair \n* Vest or sports shirt white = 1 Pair \n* Pull-over or Jersey(in winter) =1 Pair</string>
+    <string name="summer_req" tools:ignore="ExtraTranslation">* Shalwar Qameez /Shirt and Trousers </string>
+    <string name="winter_req" tools:ignore="ExtraTranslation">* Shalwar Qameez / Lounge Suit / Combination or shirt, Trousers and Pull over /Jersey.</string>
+    <string name="specific_for_females" tools:ignore="ExtraTranslation">* You may wear any respectable dress according to norms of our society. \n* Also bring along Set of Hair band/safety pins. \n* Nails Should be finely trimmed. \n* Hair Should be Neatly tied. \n* No jewelry item is to be worn during obstacles/ Tasks. \n* For outdoor task you will be required to wear Tracksuit. </string>
+    <string name="required_docs" tools:ignore="ExtraTranslation">* Matric Marksheet \n* Matric Certificate \n* Fsc Marksheet \n* Fsc Certificate(if applying on part-1 base then + + bring hope certificate with you) \n* CNIC/B-form \n* For graduate students bring your degree \n* In case of "0", "A" level, equivalence certificate and birth certificate are compulsory \n* Not recommendation letter(in case you are applying 2nd or 3rd time) </string>
+    <string name="note_for_required_docs" tools:ignore="ExtraTranslation">Note:\n* PHOTOCOPY OF ANY CERTIFICATE WILL NOT BE ACCEPTABLE.
+</string>
 </resources>

@@ -120,6 +120,9 @@
         <item name="android:fontFamily">@font/opensans_regular</item>
         <item name="android:textAlignment">center</item>
     </style>
+    <style name="ButtonComplimentary">
+        <item name="android:background">@drawable/btn_red</item>
+    </style>
 
 
 </resources>

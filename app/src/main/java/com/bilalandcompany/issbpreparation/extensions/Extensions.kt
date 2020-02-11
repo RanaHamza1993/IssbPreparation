@@ -3,11 +3,13 @@ package com.bilalandcompany.issbpreparation.extensions
 import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.BitmapDrawable
+import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.google.android.material.snackbar.Snackbar
 import es.dmoral.toasty.Toasty
 fun Context.showSuccessMessage(message: String, duration: Int = Toast.LENGTH_SHORT) {
@@ -58,3 +60,6 @@ fun TextView.clear(){
 fun ImageView.makeRound(){
     this.clipToOutline=true
 }
+
+
+

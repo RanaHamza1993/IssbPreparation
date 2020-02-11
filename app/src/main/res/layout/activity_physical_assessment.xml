@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="PhysicalAssessmentBinding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.PhysicalAssessment"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/calculators_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/bmi_calc_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_click"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cplaceholder" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/gradient_transparent_to_black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:shadowColor="@android:color/black"
+                        android:shadowDx="0.1"
+                        android:shadowDy="1.0"
+                        android:shadowRadius="16"
+                        android:text="calculate\nBMI"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/age_calc_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_iv_bg"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cplaceholder" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/gradient_transparent_to_black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:shadowColor="@android:color/black"
+                        android:shadowDx="0.1"
+                        android:shadowDy="1.0"
+                        android:shadowRadius="16"
+                        android:text="calculate \nYour Age"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <WebView
+            android:id="@+id/bmi_webview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+        <WebView
+            android:id="@+id/age_calc_webview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+</layout>

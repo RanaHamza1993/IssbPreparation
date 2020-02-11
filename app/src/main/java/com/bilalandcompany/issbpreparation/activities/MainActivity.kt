@@ -2,12 +2,21 @@ package com.bilalandcompany.issbpreparation.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
 import com.bilalandcompany.issbpreparation.R
 import com.bilalandcompany.issbpreparation.constants.StaticFunctions
 import com.bilalandcompany.issbpreparation.databinding.MainActivityBinding
+import com.bilalandcompany.issbpreparation.extensions.hide
 import com.bilalandcompany.issbpreparation.extensions.makeRound
+import com.bilalandcompany.issbpreparation.extensions.show
 import com.bilalandcompany.issbpreparation.kotlin.ActivityNavigator
+import kotlinx.android.synthetic.main.intro_dialog.view.*
+import kotlinx.android.synthetic.main.intro_dialog.view.bt_close
+import kotlinx.android.synthetic.main.requirements_select_sex.*
+import kotlinx.android.synthetic.main.requirements_select_sex.view.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: MainActivityBinding
@@ -52,8 +61,59 @@ class MainActivity : AppCompatActivity() {
                 ActivityNavigator<PostDataActivity>(this@MainActivity,
                     PostDataActivity::class.java)
             }
+            physicalIv.setOnClickListener {
+                ActivityNavigator<PhysicalAssessment>(this@MainActivity,PhysicalAssessment::class.java)
+            }
+            centersIv.setOnClickListener {
+                ActivityNavigator<IssbCentres>(this@MainActivity,IssbCentres::class.java)
+            }
+            introIv?.setOnClickListener {
+                showIntro()
+            }
+
+            requirementsIv.setOnClickListener {
+                showRequirements()
+            }
 
         }
+    }
+
+    private fun showRequirements() {
+        val mDialogView = LayoutInflater.from(this).inflate(R.layout.requirements_select_sex, null)
+        val mBuilder = AlertDialog.Builder(this)
+            .setView(mDialogView)
+        val  mAlertDialog = mBuilder.show()
+
+        mDialogView.select_male_tv.setOnClickListener {
+            mDialogView.req_layout_for_male.show()
+            mDialogView.req_layout_for_female.hide()
+            mAlertDialog.layout_select_gender.hide()
+
+
+        }
+        mDialogView.select_female_tv.setOnClickListener {
+            mDialogView.req_layout_for_female.show()
+            mAlertDialog.layout_select_gender.hide()
+            mDialogView.req_layout_for_male.hide()
+
+        }
+        mDialogView.bt_close.setOnClickListener {
+            mAlertDialog.dismiss()
+        }
+
+
+    }
+
+    private fun showIntro() {
+        val mDialogView = LayoutInflater.from(this).inflate(R.layout.intro_dialog, null)
+        val mBuilder = AlertDialog.Builder(this)
+            .setView(mDialogView)
+        val  mAlertDialog = mBuilder.show()
+
+        mDialogView.bt_close.setOnClickListener {
+            mAlertDialog.dismiss()
+        }
+
     }
 
 }
