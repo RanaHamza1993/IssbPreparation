@@ -43,7 +43,7 @@ class IssbCentres : AppCompatActivity() {
             StaticFunctions.loadImage(this@IssbCentres, R.drawable.gujranwala, gujranwalaIv)
             StaticFunctions.loadImage(this@IssbCentres, R.drawable.kohat, kohatIv)
             StaticFunctions.loadImage(this@IssbCentres, R.drawable.malir, malirIv)
-            StaticFunctions.loadImage(this@IssbCentres, R.drawable.quetta, quettaIv)
+            StaticFunctions.loadImage(this@IssbCentres, R.drawable.quetta , quettaIv)
             makeImagesRound()
             gujranwalaIv?.setOnClickListener {
                 val bundle=Bundle()
