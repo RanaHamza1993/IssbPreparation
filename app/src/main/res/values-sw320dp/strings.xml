@@ -8,6 +8,11 @@
     <string name="winter_req" tools:ignore="ExtraTranslation">* Shalwar Qameez / Lounge Suit / Combination or shirt, Trousers and Pull over /Jersey.</string>
     <string name="specific_for_females" tools:ignore="ExtraTranslation">* You may wear any respectable dress according to norms of our society. \n* Also bring along Set of Hair band/safety pins. \n* Nails Should be finely trimmed. \n* Hair Should be Neatly tied. \n* No jewelry item is to be worn during obstacles/ Tasks. \n* For outdoor task you will be required to wear Tracksuit. </string>
     <string name="required_docs" tools:ignore="ExtraTranslation">* Matric Marksheet \n* Matric Certificate \n* Fsc Marksheet \n* Fsc Certificate(if applying on part-1 base then + + bring hope certificate with you) \n* CNIC/B-form \n* For graduate students bring your degree \n* In case of "0", "A" level, equivalence certificate and birth certificate are compulsory \n* Not recommendation letter(in case you are applying 2nd or 3rd time) </string>
-    <string name="note_for_required_docs" tools:ignore="ExtraTranslation">Note:\n* PHOTOCOPY OF ANY CERTIFICATE WILL NOT BE ACCEPTABLE.
-</string>
+    <string name="note_for_required_docs" tools:ignore="ExtraTranslation">Note:\n* PHOTOCOPY OF ANY CERTIFICATE WILL NOT BE ACCEPTABLE.</string>
+    <string name="unforgetable_incident" tools:ignore="ExtraTranslation">In bio data form,last part is to write unforgettable incident.lt can be happiest moment of life ,saddest moment of life or turning point of life.</string>
+    <string name="important_unforgetable_incident" tools:ignore="ExtraTranslation">Do practice at home.\nIncident should give some message. \nShould be 6 to 8 line. \nShould be real and not based on fantasy.</string>
+    <string name="address" tools:ignore="ExtraTranslation">ISSB officials will give welcome speech and address you and give short briefing of tasks which will be done in ISSB.It will take 10 to 20 minutes.</string>
+    <string name="chest_photo" tools:ignore="ExtraTranslation">After checking of document,you will allot a specific chest number which will remain your identity in issb for next 5 days. Secondly you have to pay a specific amount of money around 150 Rps for pictures.</string>
+    <string name="document_checking" tools:ignore="ExtraTranslation">Matric Marksheet. \nMatric Certificate. \nFsc Marksheet. \nFsc Certificate(if applying on part-1 base then bring hope certificate with you). CNIC/B-form. For graduate students bring your degree. In case of "0", "A" level, equivalence certificate and birth certificate are compulsory. Not recommendation letter(in case you are applying 2nd or 3rd time).</string>
+
 </resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="FiveDaysBinding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical"
+        tools:context=".activities.FiveDaysSchedule">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/five_days_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:visibility="visible">
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/day_one_iv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_iv_bg"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cplaceholder" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_transparent_to_black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@android:color/black"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Day 1"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/day_two_iv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_iv_bg"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cplaceholder" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_transparent_to_black" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@android:color/black"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Day 2"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/day_three_iv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_iv_bg"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cplaceholder" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_transparent_to_black" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@android:color/black"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Day 3"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/day_four_iv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_iv_bg"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cplaceholder" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_transparent_to_black" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@color/gray_light"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Phone:         \n  0552693814\n  0553866036"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:visibility="gone" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@android:color/black"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Day 4"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/day_fifth_iv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_iv_bg"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cplaceholder" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@drawable/gradient_transparent_to_black" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@color/gray_light"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Phone:         \n  0552693814\n  0553866036"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:visibility="gone" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:shadowColor="@android:color/black"
+                            android:shadowDx="0.1"
+                            android:shadowDy="1.0"
+                            android:shadowRadius="16"
+                            android:text="Day 5"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/day_one_option"
+                    layout="@layout/layout_day_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

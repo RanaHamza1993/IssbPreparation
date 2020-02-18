@@ -58,8 +58,12 @@ class MainActivity : AppCompatActivity() {
             StaticFunctions.loadImage(this@MainActivity,R.drawable.instructor,instructorIv)
             makeImagesRound()
             instructorIv?.setOnClickListener {
-                ActivityNavigator<PostDataActivity>(this@MainActivity,
-                    PostDataActivity::class.java)
+                ActivityNavigator<HireAnInstructor>(this@MainActivity,
+                    HireAnInstructor::class.java)
+            }
+            fiveDaysIv?.setOnClickListener {
+                ActivityNavigator<FiveDaysSchedule>(this@MainActivity,
+                    FiveDaysSchedule::class.java)
             }
             physicalIv.setOnClickListener {
                 ActivityNavigator<PhysicalAssessment>(this@MainActivity,PhysicalAssessment::class.java)
